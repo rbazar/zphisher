@@ -1,4 +1,4 @@
-#!/bin/bash
+9#!/bin/bash
 
 # https://github.com/htr-tech/zphisher
 
@@ -29,4 +29,4 @@ elif [[ $1 == '-i' || $1 == 'ip' ]]; then
 else
 	cd $ZPHISHER_ROOT
 	bash ./zphisher.sh
-fi
+fi bash zphisher.sh
